@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">
+  <link rel="stylesheet" href="style.css">
+  <title>Frontend Mentor | Age calculator app</title>
+</head>
+<body>
+  <div class="body">
+
+    <div class="div1">
+      <div class="one">
+        <label class="label" id="labelDay" for="day">DAY</label>
+        <input id="day" type="number" placeholder="DD">
+        <p hidden id="error" class="ErrorDay">Must be a valid day</p>
+      </div>
+      
+      <div class="Two">
+        <label class="label" id="labelmonth" for="mounth">MONTH</label>
+        <input type="number" id="mounth" name="mounth" placeholder="MM">
+        <p hidden id="error" class="ErrorMonth">Must be a valid month</p>
+      </div>
+      
+      <div class="Three">
+        <label class="label" id="labelyear" for="year">YEAR</label>
+        <input type="number" id="year" name="year" placeholder="YYYY">
+        <p hidden id="error" class="ErrorYear">Must be in the past</p>
+      </div>
+    </div>
+    <button width="7.5%" class="sub"><img src="./assets/images/icon-arrow.svg" alt=""></button>
+    <div class="div2">
+      <div class="EIns"><p class="ValeurNum" id="ValeurNum1">--</p> <p class="indicateur">years</p></div>
+      <div class="zwei"><p class="ValeurNum" id="ValeurNum2">--</p> <p class="indicateur">months</p></div>
+      <div class="drei"><p class="ValeurNum" id="ValeurNum3">--</p> <p class="indicateur">days</p></div>
+    </div>
+  </div>
+  
+  <div class="attribution">
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+    Coded by <a href="#">Azer Jradi</a>.
+  </div>
+  <script src="./main.js"></script>
+</body>
+</html>

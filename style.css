@@ -1,0 +1,241 @@
+*{
+    background: #F0F0F0;
+}
+.body{
+    margin-left: 20%;
+    margin-top: 50px;
+    background: white;
+    width: 60%;
+    height: 550px;
+    display: flex;
+    flex-direction: column;
+    border-radius: 20px 20px 150px 20px;
+}
+.div1 {
+    background: transparent;
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 100px;
+    margin-left: 5%;
+    margin-top: 5%;
+    padding-bottom: 25px;
+    width: 70%;
+    border-bottom: 1px grey solid;
+}
+.Two {
+    background: transparent;
+    display: flex;
+    flex-direction: column;
+    margin: 0 10%;
+}
+.Three {
+    background: transparent;
+    display: flex;
+    flex-direction: column;
+}
+.one {
+    background: transparent;
+    display: flex;
+    flex-direction: column;
+}
+.label {
+    background: transparent;
+    color: grey;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 600;
+    font-size: 16px ;
+    margin-bottom: 10px;
+}
+input{
+    border: 1px grey solid;
+    border-radius: 4px;
+    width: 100px;
+    height: 50px;
+    padding-left: 25%;
+    padding-right: 10%;
+    font-weight: bolder;
+    font-size: 30px;
+}
+button{
+    width: 10%;
+    background: #864CFF;
+    border: none;
+    border-radius: 100%;
+    position: relative;
+    left: 65%;
+    top: -150px;
+}
+img{
+    padding: 20px 0;
+    background: transparent;
+}
+.div2 {
+    background: transparent;
+    display: flex;
+    flex-direction: column;
+    margin-top: -75px;
+    margin-left: 5%;
+}
+.EIns {
+    display: flex;
+    flex-direction: row;
+    background: transparent;
+}
+.zwei {
+    display: flex;
+    flex-direction: row;
+    background: transparent;
+}
+.drei {
+    display: flex;
+    flex-direction: row;
+    background: transparent;
+}
+.ValeurNum {
+    background: transparent;
+    margin-top: -100px;
+    font-size: 90px;
+    font-weight: bolder;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #864CFF;
+    letter-spacing: 10px;
+}
+.indicateur {
+    background: transparent;
+    margin-top: -100px;
+    font-size: 90px;
+    font-weight: bolder;
+    font-family: Arial, Helvetica, sans-serif;
+}
+#error{
+    color: #D67372;
+    background: transparent;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 600;
+    width: 150px ;
+}
+@media screen and (max-width:768px) {
+    *{
+        background: #F0F0F0;
+    }
+    .body{
+        margin-left: 5%;
+        margin-top: 50px;
+        background: white;
+        width: 90%;
+        height: 425px;
+        display: flex;
+        flex-direction: column;
+        border-radius: 20px 20px 100px 20px;
+    }
+    .div1 {
+        background: transparent;
+        display: flex;
+        flex-direction: row;
+        margin-bottom: 100px;
+        margin-left: 5%;
+        margin-top: 5%;
+        padding-bottom: 50px;
+        width: 90%;
+        border-bottom: 1px grey solid;
+    }
+    .Two {
+        background: transparent;
+        display: flex;
+        flex-direction: column;
+        margin: 0 10%;
+    }
+    .Three {
+        background: transparent;
+        display: flex;
+        flex-direction: column;
+    }
+    .one {
+        background: transparent;
+        display: flex;
+        flex-direction: column;
+    }
+    .label {
+        background: transparent;
+        color: grey;
+        font-family: Arial, Helvetica, sans-serif;
+        font-weight: 600;
+        font-size: 12px ;
+        margin-top: 5%;
+        margin-bottom: 5px;
+    }
+    input{
+        border: 1px grey solid;
+        border-radius: 4px;
+        width: 70%;
+        height: 20px;
+        padding-left: 10%;
+        padding-right: 10%;
+        font-weight: bolder;
+        font-size: 10px;
+        display: flex;
+        align-items: center;
+    }
+    button{
+        width: 15%;
+        background: #864CFF;
+        border: none;
+        margin-bottom: 35px;
+        margin-top: 25px;
+        margin-left: -22.5%;
+    }
+    img{
+        padding: 10px 0;
+        width: 100%;
+        background: transparent;
+    }
+    .div2 {
+        background: transparent;
+        display: flex;
+        flex-direction: column;
+        margin-top: -75px;
+        margin-left: 5%;
+    }
+    .EIns {
+        display: flex;
+        flex-direction: row;
+        background: transparent;
+    }
+    .zwei {
+        display: flex;
+        flex-direction: row;
+        background: transparent;
+        margin-bottom: 50px;
+        margin-top: 50px;
+    }
+    .drei {
+        display: flex;
+        flex-direction: row;
+        background: transparent;
+    }
+    .ValeurNum {
+        background: transparent;
+        font-size: 42px;
+        font-weight: 800;
+        font-family: Arial, Helvetica, sans-serif;
+        color: #864CFF;
+    }
+    .indicateur {
+        background: transparent;
+        font-size: 42px;
+        font-weight: 800;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+    #error{
+        color: #D67372;
+        background: transparent;
+        font-family: Arial, Helvetica, sans-serif;
+        font-weight: 600;
+        width: 100% ;
+        margin-bottom: -25px;
+    }
+    .attribution{
+        font-size: 12px;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+}
